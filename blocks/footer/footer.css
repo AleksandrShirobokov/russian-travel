@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin: 92px 48px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer { 
+        margin: 88px 24px 0;
+    }   
+}
+
+@media screen and (max-width: 540px) {
+    .footer { 
+        margin: 64px 16px 0;
+    }   
+}
+
+
