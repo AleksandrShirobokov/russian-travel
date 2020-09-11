@@ -2,14 +2,16 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-areas: 
-        "a b"
-        "c d"
-        "c e";
-    margin-bottom: 80px;    
+        "title website"
+        "picture text";
+    margin-bottom: 80px;
+    column-gap: 40px;   
+    row-gap: 48px;
 }
 
 @media screen and (max-width: 768px) {
     .place { 
+        column-gap: 28px;   
         margin-bottom: 72px; 
     }  
 } 
